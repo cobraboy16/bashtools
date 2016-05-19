@@ -8,8 +8,9 @@ brew install $1 $2
 }
 brew tap caskroom/cask
 brew tap caskroom/versions
+brew tap homebrew/core
+install_package ant ''
 install_package bash-completion ''
-install_package brew-cask ''
 install_package coreutils ''
 install_package corkscrew ''
 install_package cvs ''
@@ -18,6 +19,7 @@ install_package git ''
 install_package lame ''
 install_package libtool ''
 install_package libvo-aacenc ''
+install_package node ''
 install_package openssl ''
 install_package ssh-copy-id ''
 install_package vim ''
@@ -35,14 +37,18 @@ install_cask_package 1password
 install_cask_package adium-beta
 install_cask_package alfred
 install_cask_package caffeine
+install_cask_package displaylink
+install_cask_package eclipse-jee
 install_cask_package google-chrome
 install_cask_package gpgtools
 install_cask_package intellij-idea-ce
 install_cask_package istat-menus
 install_cask_package iterm2-nightly
 install_cask_package java
+install_cask_package jxplorer
 install_cask_package knock
 install_cask_package macdown
+install_cask_package p4merge
 install_cask_package soapui
 install_cask_package stay
 install_cask_package sublime-text-dev
