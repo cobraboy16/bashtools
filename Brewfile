@@ -27,4 +27,5 @@ cask "p4merge"
 cask "soapui"
 cask "caskroom/fonts/font-hack-nerd-font"
 cask "caskroom/versions/iterm2-nightly"
+cask "caskroom/versions/java8"
 mas "GarageBand", id: 408980954
